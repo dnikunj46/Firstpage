@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my page</title>
+    <link rel="icon" type="image" href="realistic/images/demo/imgl.gif">
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgba(215, 113, 237, 0.912);
+            padding: 10px;
+            box-sizing: border-box;
+            /* height: 100%; */
+        }
+
+        .header {
+            font-size: 15px;
+            text-align: center;
+            background-color: rgb(203, 117, 56);
+            padding: 10px;
+        }
+
+        .navbar {
+            background-color: rgb(215, 233, 233);
+            /* height: 20px;     */
+        }
+
+        .navbar li {
+            display: inline-block;
+            /* float: left; */
+            /* padding: 10px 10px; */
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            background-color: rgb(123, 94, 151);
+            font-size: 20px;
+            color: aliceblue;
+            margin: 10px;
+            /* padding: 10px 10px; */
+
+        }
+
+        .navbar li :hover {
+            background-color: black;
+            color: wheat;
+        }
+
+        .sidebar {
+            float: left;
+            background-color: rgb(96, 95, 94);
+            width: 20%;
+            
+        }
+
+        .photo {
+            width: 100%;
+            background-color: rgb(135, 130, 123);
+        }
+
+        .mainbar {
+            float: left;
+            width: 70%;
+            background-color: rgb(119, 129, 139);
+            padding-left: 20px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .card {
+            background-color: antiquewhite;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .footer{
+            background-color: rgb(179, 171, 171);
+            /* width: 100%; */
+            margin-top: 20px;
+            padding: 10px;
+            text-align: center;
+        }
+        @media screen and (max-width: 700px){
+            .sidebar,.mainbar{
+                width: 100%;
+                padding: 0;
+            }
+        }
+        @media screen and (max-width: 500px){
+            .navbar{
+                display: block;
+                width: 100%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>My first website</h1>
+        <h2>This is main header</h2>
+    </div>
+    <div class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">About us</a></li>
+        </ul>
+    </div>
+    <div class="row">
+        <div class="sidebar">
+            <div class="card">
+                <h2>side bar</h2>
+                <div class="photo" style="height:100px ;">image</div>
+                <p>hi</p>
+                <p>hjvascvacascjajcv madvcadvmdvcd
+                    mcamcas.
+                    aaaac
+                </p>
+            </div>
+
+            <div class="card">
+                <h2>side bar2</h2>
+                <div class="photo" style="height:100px ;">image</div>
+                <p>hi2</p>
+                <p>scvmckdbnsd,nldnc ascmsa cmm c,masc,
+                    dnvbv sd sdv
+                    asncvkj
+                </p>
+            </div>
+        </div>
+        <div class="mainbar">
+            <div class="card">
+                <div class="photo" style="height:300px ;">image</div>
+                <p>hi</p>
+                <p>hjvascvacascjajcvmadvcadvmdvcdmcamcas.
+                    kascakgafkbcavbsdmv
+                    scvacma c,dkvbmc sdvbmavvncanclhkuadhvk,v albaVD
+                    asjvbamx kadjnvkabvavv,
+                    aaaac
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h2>Footer</h2>
+    </div>
+</body>
+
+</html>
